@@ -1,0 +1,70 @@
+head = informações para serem passadas
+
+body = detalhe da informação
+
+padding = espaçamento interno
+
+margin: espaçamento externo
+
+tag <ul></ul> = lista não ordenada(tag OL = lista ordenada)
+
+quando é usado ID(identificação) é colocado uma tralha(#), mas quando é utilizado classe é utilizado .
+
+diferença de classe(para diversos itens, itens repetidos) e ID(para um unico item)
+
+div = divisão(Sessão da sua page)
+
+display = referente ao espaçamento de cada linha(que tem autocomplete até o final da linha);
+------------------------------------------------------final curso 1 --------------------------
+para linkar as coisas a tag necessária é <a>(ancor=ancora)
+
+position: absolute faz com que nós podemos manipular o link(ou o que queremos mexer) para qualquer lugar, ele não fica
+estagnado desse jeito, normalmente ele está em position: static;(Para que serve o posicionamento absolute?
+Para mudar a posição do ponto inicial que ele se encontra)
+
+para alinhar uma div ao centro é bom usar o calculo da MARGIN: 0 auto(automatico)
+
+hover = é para mudar a ação de quando o usuário passa o mouse pelo menu
+
+active = é quando ele ta clicando e altera algum comportamento do menu
+--------------------------------------------------- final curso 2 -------------------------------
+label = etiqueta(anda junto com o formulário(<form>)) usado para criarmos uma estrutura melhor no nosso formulário
+botando uma etiqueta para cada um dos campos onde temos entrada de dados no usuário
+estruturação <form>
+<label>NOME DO CAMPO</label>
+<input type="text">
+</form>
+
+Quando queremos agrupar os campos numa div e quando queremos ter um titulo para isso, é utilizado a tag 
+FIELDSET ao invés de div, tendo o PARAGRAFO como TITULO(tag LEGEND)
+
+transition é relacionado a alguma mudança, se eu coloco no css o hover e a transition, significa que quando o
+usuário colocar o mouse em cima vai fazer alguma modificação, de acordo com o que eu coloquei no css
+transform(rotate/scale(seria em porcentagem, porém como não tem como colocar o exemplo seria de 20%, que o valor
+no scale é 1.2))
+
+TABLE -> TR(TABLE ROW --- LINHA) TD(CELULAS QUE VAI TER O CONTEUDO QUE A GENTE QUISER)
+table também é dividida em 3 partes = cabeçalho(thead) corpo(tbody) e rodapé
+TH = CELULA DO CABEÇALHO(TABLE HEAD)
+
+----------------------------------------------- final curso 3 ---------------------------------------
+quando temos uma div que tem um conteúdo só, ela se torna uma SECTION(div é uma divisão visual e section é uma divisão
+onde tem um conteúdo complexo, texto e imagem referente a 01 conteúdo)
+
+quando falamos de estilo, usa-se CLASS e quando falamos de comportamento usa-se ID
+
+float no css é para manter algo no devido lugar e fazer com que as outras coisas se adequem ao lado dele, sem 
+mexer no seu espaçamento
+
+MARGIN: PRIMEIRO É PRA CIMA, DEPOIS PRA DIREITA, DEPOIS PRA BAIXO, DEPOIS PRA ESQUERDA
+
+pseudoelementos -> class:before(antes)
+class:after(depois)
+class:first-child(primeiroelemento)
+class:last-child(ultimoelemento)
+class:nth-child(X) no lugar do X tu coloca o elemento que tu quer
+
+linear-gradiant(1cor,2cor) pra fazer degrade de cores
+
+box-shadow é para criar uma sombra atrás do elemento... box-shadow(X Y transição cor)
+
